@@ -1,0 +1,20 @@
+{
+  "name": "live_streaming",
+  "version": "1.0.0",
+  "description": "Landing page project",
+  "main": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist",
+    "sass:build": "sass --style=compressed styles:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlekCawka/live_streaming.git"
+  },
+  "author": "AlekCawka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlekCawka/live_streaming/issues"
+  },
+  "homepage": "https://github.com/AlekCawka/live_streaming#readme"
+}
