@@ -11,9 +11,41 @@
 
 <body>
 
-    hello
+    <header class="header" aria-label="header">
+        <div class="container">
+            <nav class="header__nav nav" aria-label="header navigation">
+                <div class="nav__title">
+                    <a href="" class="nav__title-link">CLOUND <span>FLEX</span></a>
+                </div>
 
-    <svg width="27" height="28">
+                <div class="nav__links">
+                    <ul class="nav__links-list list" aria-label="header nav links">
+                        <li class="list__item" aria-label="first link">
+                            <a href="#" class="list__item-link">about</a>
+                        </li>
+
+                        <li class="list__item" aria-label="second link">
+                            <a href="#" class="list__item-link">contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__covid-wrapper covid">
+                    <a href="#" class="covid__link" aria-label="covid-19 update">COVID-19 UPDATE</a>
+                </div>
+
+                <div class="nav__globe-wrapper globe">
+                    <a href="#" class="globe__link" aria-label="globe">
+                        <svg class="globe__link-icon" aria-label="globe svg">
+                            <use href="/assets/sprites.svg#global-icon" />
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- <svg width="27" height="28">
         <use href="/assets/sprites.svg#global-icon" />
     </svg>
 
@@ -39,7 +71,7 @@
 
     <svg width="42" height="36">
         <use href="/assets/sprites.svg#integration-icon" />
-    </svg>
+    </svg> -->
 
 </body>
 
